@@ -15,7 +15,7 @@ public class HighLow {
 
                 else if (myArray[j] < low)
                     low = myArray[j];
-            
+
         }
         System.out.println("The high is " + high + " and the low is " + low);
     }
