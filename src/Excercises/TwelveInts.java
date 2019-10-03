@@ -9,13 +9,14 @@ public class TwelveInts {
 
         Scanner input = new Scanner(System.in);
 
-        int[] myArray = new int[12];
+        int[] myArray = {1,2,3,4,5,6,7,8,9,10,11,12};
 
         for (int i = 0; i < myArray.length; ++i) {
-            System.out.println(i + 1);
+            System.out.println(myArray[i]);
         }
-        for (int j = 0; myArray.length > j; --j) {
-            System.out.println(myArray);
+        for (int j = 11; j <= myArray.length; --j) {
+            System.out.println(myArray[j]);
+
         }
     }
 }

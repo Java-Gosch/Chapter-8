@@ -35,7 +35,7 @@ public class FindPrice {
             JOptionPane.showMessageDialog(null, "Sorry - Invalid Entry");
         }
          strItem = JOptionPane.showInputDialog(null, "Done with finding prices? Yes or No?");
-            if(strItem.equalsIgnoreCase("No"));
+            if(strItem.equalsIgnoreCase("No"))
                 again = false;
         }
     }
