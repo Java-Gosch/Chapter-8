@@ -31,7 +31,7 @@ public class DistanceFromAverage {
         System.out.println("The average of your entries is " + avg);
 
         for(int j = 0; j < twentyDoubles.length; j++){
-            
+
         }
 
     }
